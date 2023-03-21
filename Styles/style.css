@@ -7,6 +7,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-content: space-between;
+    padding-left: 32px;
+    padding-right: 20px;
 }
 
 .all-header a {
@@ -19,7 +21,8 @@ header {
     align-items: center;
     color: #3A3A3A;
     font-weight: 600;
-
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .container {
@@ -29,9 +32,18 @@ header {
     align-items: center;
 }
 
+.influencer-about {
+    margin: 25px;
+}
+
 .influencer-heading {
     font-weight: 700;
-    line-height: 70px;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.lorem-arc {
+    margin-bottom: 20px;
 }
 
 .preebook,
@@ -55,4 +67,20 @@ a {
 img {
     width: 475px;
     height: 475px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 70px 170px;
+    border-block: 2px ridge;
+    border-color: hsl(0, 0%, 83%, 0.2);
+}
+
+.container-2>div>img {
+    width: 55.05px;
+    height: 31.06px;
+    padding: 10px 0px;
 }
