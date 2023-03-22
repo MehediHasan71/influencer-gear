@@ -33,7 +33,7 @@ header {
 }
 
 .influencer-about {
-    margin: 25px;
+    margin: 100px;
 }
 
 .influencer-heading {
@@ -75,6 +75,7 @@ img {
     justify-items: center;
     align-items: center;
     margin: 70px 170px;
+    margin-bottom: 100px;
     border-block: 2px ridge;
     border-color: hsl(0, 0%, 83%, 0.2);
 }
@@ -83,4 +84,109 @@ img {
     width: 55.05px;
     height: 31.06px;
     padding: 10px 0px;
+}
+
+
+
+
+
+.collection-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 30px;
+}
+
+.collection-img>img {
+    width: 300px;
+    height: 256px;
+}
+
+.collection {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 16px 13px;
+}
+
+#more {
+    text-align: right;
+    margin: 50px;
+    margin-right: 150px;
+}
+
+
+
+.container-4 {
+
+    margin: 0px 100px;
+}
+
+.container-4>div {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.products {
+    display: flex;
+}
+
+.product>img {
+    width: 404px;
+    height: 270px;
+    background: url(.jpg);
+    border-radius: 7px;
+}
+
+.product-info {
+    margin-left: 96px;
+}
+
+.product-heading {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+article {
+    padding-bottom: 16px;
+
+
+
+}
+
+.button {
+    background-color: #E02C6D;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 2px;
+    right: 0px;
+}
+
+
+
+
+footer {
+    background-color: rgb(202, 50, 50);
+    display: 100%;
+
+
+}
+
+.container-5 {
+    text-align: center;
+    padding: 40px 150px;
+}
+
+.social-media>a {
+    margin-right: 10px;
+
 }
