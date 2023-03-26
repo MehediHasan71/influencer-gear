@@ -11,8 +11,18 @@ header {
     padding-right: 20px;
 }
 
-.all-header a {
+.products>h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.all-header>div>a {
     text-decoration: none;
+
+    color: #3A3A3A;
+    font-weight: 600;
+
+
 }
 
 .all-header {
@@ -23,6 +33,7 @@ header {
     font-weight: 600;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    font-size: 16px;
 }
 
 .container {
@@ -46,10 +57,9 @@ header {
     margin-bottom: 20px;
 }
 
-.preebook,
-a {
+.preebook>div>a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fcfcfc;
 }
 
 .preebook {
@@ -189,4 +199,37 @@ footer {
 .social-media>a {
     margin-right: 10px;
 
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .influencer-about {
+        margin: 20px;
+        width: 404px;
+
+        text-align: center;
+    }
+
+    .camera,
+    img {
+        width: 257px;
+        height: 257px;
+    }
+
+    .preebook {
+        margin-left: 100px;
+    }
 }
